@@ -7,12 +7,14 @@ class Author
     @posts = []
   end
 
+  def add_post(post)
+    
+  end
+
   def posts
     @posts
   end
 
-  def add_post(post)
 
-  end
 
 end
