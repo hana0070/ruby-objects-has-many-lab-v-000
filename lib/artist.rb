@@ -13,10 +13,10 @@ class Artist
   end
 
 
-    def songs
-      @songs
-    end
-    
+  def songs
+    @songs
+  end
+
   def add_song_by_name(name)
     name = song.new
     artist.name
