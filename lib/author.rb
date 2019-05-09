@@ -22,12 +22,6 @@ class Author
     post.author = self
   end
 
-  def add_song_by_name(name)
-    song = Song.new(name)
-    @songs << song
-    song.artist = self
-  end
-
   def self.post_count
     self.all.count
   end
